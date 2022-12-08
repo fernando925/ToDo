@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    background-color: #7e2431;
+    color: white;
+  }
+
+.h1-initial{
+    text-align: center;
+    color: darkslategrey;
+    margin-bottom: 15px;
+  }
+
+h1 {
+    text-align: center;
+    color: darkslategrey;
+    margin: 0px;
+  }
+  
+h2 {
+    text-align: center;
+    color: darkslategrey;
+    margin: 0px 0px 15px;
+  }
+
+  
+  
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+  }
+  
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  /* para el initial nececito uno y para log y reg otro */
+  .form-initial {
+    display: flex;
+  }
+  
+  .input-initial{
+    padding: 15px 10px;
+    outline: none;
+    width: -webkit-fill-available;
+    margin-bottom: 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 1px grey;
+    font-size: 15px;
+  }
+
+  .input-general{
+    padding: 15px 10px;
+    outline: none;
+    width: -webkit-fill-available;
+    margin-bottom: 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 1px grey;
+    font-size: 15px;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 10px;
+    align-items: center;
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    font-size: 17px;
+    overflow: hidden;
+  }
+  
+
+
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #d11e1e;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: #078f0b;
+    font-size: 1.4rem;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: #07cb03;
+  }
+
+  .btn-general{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+  }
+
+.btn-goto{
+  text-decoration: none;
+    padding: 10px;
+    background: #1877f2;
+    text-align: center;
+    display: block;
+    width: 50%;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+}  
+
+.div-goto{
+   margin-top: 15px;
+    text-align: -webkit-center;
+}
+
+.error{
+  color: #f02849;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 12px;
+    text-align: left;
+}
