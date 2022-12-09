@@ -168,7 +168,7 @@ h2 {
     text-align: left;
 }
 
-@media screen and (min-width: 760px) {
+@media (min-width: 500px) {
   .container{ 
     width: 30%;
   }
