@@ -88,10 +88,10 @@ const loadRegisterTemplate = () => {
                 <div>
                     <input class="input-general" name ="password" placeholder="Password" />
                 </div>
-                <button class="btn-general" type="submit">Sing up</button>
+                <button class="btn-general" type="submit">Create Account</button>
             </form>
             <div class="div-goto">
-                <a class="btn-goto" href="#" id="login">Log in</a>
+                <a class="btn-goto" href="#" id="login">Log In</a>
             </div>
         <div class="error" id="error" ></div> 
     </div>
